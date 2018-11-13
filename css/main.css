@@ -1,0 +1,221 @@
+/*** BASE STYELES ***/
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #095156;
+}
+
+/*** GRID ***/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/*** HEADER ***/
+
+header {
+  height: 800px;
+  background: url('../img/hero-image.jpg');
+  background-size: cover;
+}
+
+header h1 {
+  padding: 300px 0 15px 100px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 60px;
+  color: #095156;
+  text-align: left;
+}
+
+header h2 {
+  width: 1000px;
+  clear: both;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 48px;
+  line-height: 80px;
+  color: #095156;
+  padding: 10px 0 20px 100px;
+  text-align: left;
+}
+
+nav {
+  float: right;
+  padding: 75px 0px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+  color: #095156;
+  padding-left: 80px;
+}
+
+#code {
+  float: right;
+  padding-top: 120px;
+}
+
+
+
+/*** WORK ***/
+
+#work {
+  height: 1450px;
+}
+
+#work .full-width {
+  padding: 100px 0;
+}
+
+#work img {
+  padding-bottom: 30px;
+  padding-left: 100px;
+}
+
+#work h2 {
+  color: #black;
+  text-align: center;
+  font-size: 36px;
+}
+
+#work h3 {
+  font-size: 24px;
+}
+
+#work p {
+  font-size: 20px;
+}
+
+#work .half-top {
+  width: 600px;
+  float: right;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#work .half-middle {
+  width: 600px;
+  float: right;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#work .half-bottom {
+  width: 600px;
+  float: right;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+
+/*** ABOUT ***/
+
+#about {
+  height: 650px;
+  background-color: #087e8b;
+}
+
+#about .full-width {
+  padding: 50px 0;
+}
+
+#about h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 36px;
+}
+
+#about .about-me-image {
+  padding: 0px 0px 0px 100px;
+}
+
+#about .about-me {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 0px 0px 100px 300px;
+}
+
+/*** CONTACT ***/
+
+#contact {
+  height: 400px;
+  background-color: #095156;
+}
+
+#contact {
+  padding: 100px 0;
+}
+
+#contact h2 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 36px;
+}
+
+#contact .hire-me {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 50px 0px 10px 220px;
+}
+
+#contact .follow-me {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 50px 0px 10px 180px;
+}
+
+#contact p {
+  color: #ffffff;
+  font-size: 24px;
+  padding-left: 150px;
+}
+
+#contact h5 {
+  color: #ffffff;
+  font-size: 18px;
+
+  padding-top: 300px;
+  padding-left: 120px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: #bdbf09;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  font-size: 32px;
+  padding-right: 25px;
+}
+
+#contact .social-media {
+  padding-left: 120px;
+}
